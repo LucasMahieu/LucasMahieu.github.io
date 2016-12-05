@@ -9,7 +9,7 @@ baseurl: null # apply null if repo name is something like username.github.io
 
 google_analytics: UA-XXXXX-XX
 repo: http://lucasmahieu.git
-disqus_shortname: "lucasmahieu"
+disqus_shortname: "LucasMahieu"
 twitter_username: null
 comments: true
 
