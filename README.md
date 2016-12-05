@@ -4,7 +4,7 @@ Just another minimalist Jekyll theme that focuses on technical writing. Designed
 
 [**Demo**](http://heiswayi.github.io/thinkspace/)
 
-[**Here is how to download/use this theme**](http://heiswayi.github.io/thinkspace/2016/how-to-download-or-use-this-theme/)
+[**Here is were you can download the theme used here**](http://heiswayi.github.io/thinkspace/2016/how-to-download-or-use-this-theme/)
 
 ### Screenshot
 

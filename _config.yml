@@ -30,7 +30,7 @@ sass:
 author:
   name     : "Lucas MAHIEU"
   job      : "French Embedded Software Student Engineer"
-  bio      : "Undifined"
+  bio      : "I will use this web space to share my works, my researches and other things I find interesting to keep notes"
   thumb    : /images/author.jpg
   email    : lucas.mahieu@icloud.com
   url      : http://lucasmahieu.github.io
@@ -52,6 +52,8 @@ gems:
 
 # navbar pages
 navbar:
+  - slug : cv
+    title: CV
   - slug : about
     title: About
   - slug : blog
