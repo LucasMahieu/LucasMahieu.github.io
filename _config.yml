@@ -3,8 +3,8 @@ title: "Lucas"
 title2: "Mahieu" # default: ""
 description: "This is my professional web page were I store all my interesting research or projects."
 keywords: "Jekyll, Computer Science, ENSIMAG, Embedded System, Embedded Software, note, tuto, project"
-#url: http://lucasmahieu.github.io # site url
-url: http://www.lucasmahieu.fr # site url
+url: http://lucasmahieu.github.io # site url
+#url: http://www.lucasmahieu.fr # site url
 #baseurl: "/thinkspace" # apply repo name if use it under gh-pages branch
 baseurl: null # apply null if repo name is something like username.github.io
 
