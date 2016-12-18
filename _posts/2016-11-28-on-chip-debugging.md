@@ -81,7 +81,7 @@ Then openOCD is controling the hardware, your should be ready to use gdb in the 
 > Example: For OS X users the path should be (for version 0.9.0 of openOCD) : /usr/local/Cellar/open-ocd/0.9.0/share/openocd/scripts/board/name_of_your_borad.cfg
 > Example: For Linux users the path should be (for version 0.9.0 of openOCD) : /usr/share/openocd/scripts/board/name_of_your_borad.cfg
 
-__BUG__
+__BUG__[[^1]]
 
 In some case, with some hardware boards you could have the following error :
 
@@ -136,3 +136,8 @@ I will do another tutorial to deal with gdb.
 ### Sources 
 
 This tutorial was inspired by [this video](http://hackaday.com/2012/09/27/beginners-look-at-on-chip-debugging/)
+
+---
+Footnotes:
+
+[^1]: This bug was resolved thanks to [mcuoneclipse](https://mcuoneclipse.com/2016/04/09/solution-for-openocd-cannot-communicate-target-not-haltet/)
