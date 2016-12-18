@@ -140,4 +140,4 @@ This tutorial was inspired by [this video](http://hackaday.com/2012/09/27/beginn
 ---
 Footnotes:
 
-[^1]: This bug was resolved thanks to [mcuoneclipse](https://mcuoneclipse.com/2016/04/09/solution-for-openocd-cannot-communicate-target-not-haltet/)
+[^1]: 1: This bug was resolved thanks to [mcuoneclipse](https://mcuoneclipse.com/2016/04/09/solution-for-openocd-cannot-communicate-target-not-haltet/)
