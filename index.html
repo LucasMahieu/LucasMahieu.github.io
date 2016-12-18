@@ -19,7 +19,7 @@ title: Home
       {% endunless %}
       <article class="post-item">
         <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
-		<div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>, <a href="{{ site.url }}{{ post.url }}#disqus_thread">(0 Comments <img border="0" alt="comments" src="/assets/images/comments.png" width="50" height="50">)</a></div>
+		<div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>, <a href="{{ site.url }}{{ post.url }}#disqus_thread">(0 Comments <img alt="comments" src="assets/images/comments.png" width="50" height="50">)</a></div>
       </article>
     {% endfor %}
   </div>
