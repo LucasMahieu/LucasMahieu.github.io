@@ -4,12 +4,12 @@ title2: "Mahieu" # default: ""
 description: "This is my professional web page were I store all my interesting research or projects."
 keywords: "Jekyll, Computer Science, ENSIMAG, Embedded System, Embedded Software, note, tuto, project"
 #url: http://lucasmahieu.github.io # site url
-url: http://lucasmahieu.fr # site url
+url: http://www.lucasmahieu.fr # site url
 #baseurl: "/thinkspace" # apply repo name if use it under gh-pages branch
 baseurl: null # apply null if repo name is something like username.github.io
 
 google_analytics: UA-XXXXX-XX
-repo: http://lucasmahieu.git
+repo: http://www.lucasmahieu.git
 disqus_shortname: "LucasMahieu"
 twitter_username: null
 comments: true
@@ -34,7 +34,7 @@ author:
   bio      : "I will use this web space to share my works, my researches and other things I find interesting to keep notes"
   thumb    : /images/author.jpg
   email    : contact@lucasmahieu.fr
-  url      : http://lucasmahieu.fr
+  url      : http://www.lucasmahieu.fr
   github   : http://github.com/LucasMahieu
   #twitter  : http://twitter.com/
   #facebook : https://www.facebook.com/profile.php?id=1257583160
