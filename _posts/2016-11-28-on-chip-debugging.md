@@ -14,7 +14,7 @@ You have certainly already used a debuger to find a bug in a program running on 
 
 I think a schema is more clear than a long fastidious explanation
 
-![Debug chain schema](assets/images/debug.png)
+![Debug chain schema](../assets/images/debug.png)
 
 ### Needed tools
 You will need : 
