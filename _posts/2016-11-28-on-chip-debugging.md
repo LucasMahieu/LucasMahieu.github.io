@@ -17,6 +17,7 @@ I think a schema is more clear than a long fastidious explanation
 ![Debug chain schema](../assets/images/debug.png)
 
 ### Needed tools
+
 You will need : 
 
 - openOCD
@@ -68,7 +69,9 @@ openocd --version
 ### Get Started
 
 You should have 2 terminal windows openned.
+
 #### On terminal 1
+
 We will launch the openOCD server to make the bridge between the ARM on-board-chip and the debugger on your computer.  
 To do it, juste tape : 
 
