@@ -8,7 +8,7 @@ keywords: "debug on-chip openOCD gdb arm"
 
 ### Why to use an on-chip debugger ?
 
-You have certainly already used a debuger to find a bug in a program running on your computer. You may want to do the same with your embedded device. Personnally, I really prefere to work without any IDE, so I will present you a solution to use on-chip debug directly into your terminal through commande line.
+You have certainly already used a debuger to find a bug in a program running on your computer. You may want to do the same with your embedded device. Personnally, I really prefer to work without any IDE, so I will present you a solution to use on-chip debug directly into your terminal through command line.
 
 ### How is it possible ?
 
@@ -27,7 +27,7 @@ You will need :
 
 ##### On OS X
 
-I recommande you to use [Homebrew](http://brew.sh)  
+I recommand you to use [Homebrew](http://brew.sh)  
 Thanks to brew to will juste have to run :
 
 ```bash
@@ -41,7 +41,7 @@ brew install openocd
 
 > NOTE: Replace 5_2-2015q4 and 20151219 with the current version you downloaded.
 
-and test next commandes to unsure a perfect installation
+and test next commands to unsure a perfect installation
 
 ```bash
 arm-none-eabi-gcc --version
@@ -56,7 +56,7 @@ sudo apt-get install gcc-arm-none-eabi
 sudo apt-get install openocd
 ```
 
-and test next commandes to unsure success installation
+and test next commands to unsure success installation
 
 ```bash
 arm-none-eabi-gcc --version
@@ -68,12 +68,12 @@ openocd --version
 
 ### Get Started
 
-You should have 2 terminal windows openned.
+You should have 2 terminal windows opened.
 
 #### On terminal 1
 
 We will launch the openOCD server to make the bridge between the ARM on-board-chip and the debugger on your computer.  
-To do it, juste tape : 
+To do it, juste type : 
 
 ```bash
 openocd -f path/to/the/config_board_file.cfg
@@ -95,7 +95,7 @@ Error: Connect failed. Consider setting up a gdb-attach event for the target to 
 Error: attempted 'gdb' connection rejected
 ```
 
-In order to fixe this issues you should add these following line into your board configuration file (.cfg) into the `script/target/name_of_your_board_or_board_familly.cfg` file :
+In order to fixe these issues you should add these following lines into your board configuration file (.cfg), into the `script/target/name_of_your_board_or_board_familly.cfg` file :
 
 ```
 $_TARGETNAME configure -event gdb-attach {
@@ -109,8 +109,8 @@ $_TARGETNAME configure -event gdb-attach {
 > Example : For the [FRDM-KL25z](https://developer.mbed.org/platforms/KL25Z/) board from NXP, you should modify the file : `/usr/local/Cellar/open-ocd/0.9.0/share/openocd/scripts/target/klx.cfg` for OS X users and `/usr/share/openocd/scripts/target/klx.cfg` for Linux users.
 
 #### On terminal 2
-I recommande you to create once for all a file named ".gdbinit" where you have your 'program.elf'.  
-In this file, put this 3 lines :
+I recommand you to create once for all a file named ".gdbinit" where you have your 'program.elf'.  
+In this file, put these 3 lines :
 
 ```
 target remote :3333
@@ -121,7 +121,7 @@ b path_to/main.c:main()
 Thanks to the 3 lines: 
 
 - Gdb will be connected to openOCD through the port 3333.  
-- The 'monitor' commande is to send openOCD specific commande to the openOCD server. Here we will ask openOCD to reset and to halt before the first line of code that will be executed.  
+- The 'monitor' command is to send openOCD specific command to the openOCD server. Here we will ask openOCD to reset and to halt before the first line of code that will be executed.  
 - The third line is to add a breakpoint to the fist line of your main.c 
 
 Then run : 
@@ -131,6 +131,8 @@ arm-none-eabi-gdb program.elf
 ```
 
 Here it is, you are debugging your code running into your embedded micro-processor.
+
+> NOTE: If you don't know how to generate the .elf, take a look to [this post](http://lucasmahieu.fr/2016/working-compile-without-IDE/) which gives an example of a makefile which can generate all output formats for embedded processor.
 
 ### How to use the debugger
 

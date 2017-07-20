@@ -10,7 +10,7 @@ keywords: "compilation IDE gcc make makefile project ctags vim"
 I think it is a really basic debat among programmeurs : Which IDE I will use for this project ?  
 And I have the answer for any different projects: NO ONE !  
 
-For me it is the principal reason that I prefere to don't use any IDE. 
+For me it is the principal reason that I prefer to don't use any IDE. 
 When you can make your own makefile for the compilation 
 and when your are well organized I think the more efficient is to stay all the time in your beautiful terminal.
 
@@ -27,14 +27,11 @@ I will maybe do another post to present the way I use VIM for an efficient text 
 
 ### Efficient tool : Ctags
 
-- Ctags : If you don't know ctags, I think you should go 
-[here](http://courses.cs.washington.edu/courses/cse451/10au/tutorials/tutorial_ctags.html) 
-and get it as fast as possible.
+- Ctags : If you don't know ctags, I think you should go [here](http://courses.cs.washington.edu/courses/cse451/10au/tutorials/tutorial_ctags.html) and get it as fast as possible.
 
 ### The Makefile
 
-If you are beginner with makefile, I recommande you [this tutorial in French](http://gl.developpez.com/tutoriel/outil/makefile/)
-or [this one in english](http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/).
+If you are beginner with makefile, I recommand you [this tutorial in French](http://gl.developpez.com/tutoriel/outil/makefile/) or [this one in english](http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/).
 
 #### The project structure
 
@@ -94,7 +91,7 @@ LINKER = linker/linker_script.ld
 INCLUDE_DIR = -Iheaders -Isubfolder1\
 
 # Different kind of option to give to gcc, adate to your case
-DEBUG_OPTS = -g3 -gdwarf-2 -gstrict-dwarf
+DEBUG_OPTS = -g3
 OPTS = 
 WARN = -Wno-unused-but-set-variable -Wno-unused-variable 
 TARGET = -mcpu=cortex-m0plus
@@ -231,11 +228,11 @@ deploy: $(BIN)
   @echo -e "${vert} '|                     OK                    |'  ${fin}"
 ```
 
-you can donwload this makefile [here](../../assets/other/Makefile)
+you can download this makefile [here](../../assets/other/Makefile)
 
 #### How to use it 
 
-When you are in the project directory, you just have to tape in your terminal :   
+When you are in the project directory, you just have to type in your terminal :   
 `make` to compile and generate all output file : .srec, .out, .dump, .bin, .hex, .elf  
 `make flash` to compile and send programme to the device name "MDEB"   
 `make deploy` to send the programme to the devise name "MBED"   
