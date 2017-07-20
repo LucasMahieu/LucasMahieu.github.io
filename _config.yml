@@ -55,8 +55,8 @@ gems:
 navbar:
   - slug : resume
     title: Resume
-  - slug : about
-    title: About
+  - slug : contact
+    title: Contact
   - slug : blog
     title: Blog
 

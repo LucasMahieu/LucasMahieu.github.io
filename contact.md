@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-permalink: /about/
+permalink: /contact/
 ---
 
 Feel free to contact me directly by mail at 

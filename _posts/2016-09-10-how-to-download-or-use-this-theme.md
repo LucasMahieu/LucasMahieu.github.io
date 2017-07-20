@@ -11,7 +11,7 @@ keywords: "dummy content"
 - Download or fork the master branch of this theme repo into you GitHub account.
 - Rename the repo into something like `your_username.github.io`.
 - Edit `_config.yml` file to your preferences.
-- Edit `about.md` file for your About page.
+- Edit `contact.md` file for your Contact page.
 - Inside `_posts` folder, there are sample of blog entries. Learn from it and start yours.
 - Now, visit `http://your_username.github.io` and you should see your blog running.
 
