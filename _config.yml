@@ -2,7 +2,7 @@
 title: "Lucas"
 title2: "Mahieu" # default: ""
 description: "This is my professional web page were I store all my interesting research or projects."
-keywords: "Jekyll, Computer Science, ENSIMAG, Embedded System, Embedded Software, note, tuto, project"
+keywords: "Jekyll, Computer Science, ENSIMAG, Embedded System, Embedded Software, note, tutorial, project, deep learning"
 #url: http://lucasmahieu.github.io # site url
 url: http://lucasmahieu.fr # site url
 #baseurl: "/thinkspace" # apply repo name if use it under gh-pages branch
@@ -53,8 +53,8 @@ gems:
 
 # navbar pages
 navbar:
-  - slug : cv
-    title: CV
+  - slug : resume
+    title: Resume
   - slug : about
     title: About
   - slug : blog
